@@ -1,0 +1,126 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('pattern-background-desktop.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% -20rem;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 120vh;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 350px;
+    border-radius: 20px;
+}
+
+.main_pic{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title{
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+}
+
+.title_subtext{
+    margin-top: 0rem;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.title_subtext span{
+    display: block;
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 0.25rem 0rem 0.25rem 0rem;
+    margin: 0.5rem 2rem 1rem 2rem;
+}
+
+.plan_icon{
+    margin-left: 0rem;
+    width: 90%;
+}
+.plan_small{
+    flex-direction: column ;
+    margin-left: 1rem;
+}
+
+.plan_title{
+    font-size: 16px;
+    margin-bottom: 0.25rem;
+    font-weight: 900;
+}
+
+.plan_price{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 0rem;
+}
+
+.plan_button{
+    margin-left: 2rem;
+    text-decoration: underline;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+    font-size: 16px;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+.plan_button:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(245, 91%, 67%);
+}
+
+.payment_button{
+    border: none;
+    border-radius: 15px ;
+    font-size: 16px;
+    font-weight: 700;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    margin: 0.5rem 2rem 1.5rem 2rem;
+    padding: 0.75rem 0rem;
+    box-sizing: border-box;
+    box-shadow: 0 8px 6px 15px hsl(225, 100%, 98%);
+}
+
+.payment_button:hover{
+    cursor: pointer;
+    background-color:hsl(245, 84%, 65%) ;
+}
+
+.cancel_button{
+    border: none;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 2.5rem;
+    margin-top: 0rem;
+}
+
+.cancel_button:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
