@@ -9,14 +9,15 @@ body{
     justify-content: center;
     display: flex;
     align-items: center;
-    min-height: 120vh;
+    min-height: 97vh;
+    overflow: hidden;
 }
 
 main{
     display:flex;
     flex-direction: column;
     background-color: white;
-    max-width: 350px;
+    max-width: 320px;
     border-radius: 20px;
 }
 
@@ -30,13 +31,13 @@ main{
     margin-bottom: 1rem;
     font-weight: 900;
     color:hsl(223, 47%, 23%);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .title_subtext{
     margin-top: 0rem;
     color: hsl(224, 23%, 55%);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -57,7 +58,7 @@ main{
 
 .plan_icon{
     margin-left: 0rem;
-    width: 90%;
+    width: 80%;
 }
 .plan_small{
     flex-direction: column ;
@@ -65,13 +66,13 @@ main{
 }
 
 .plan_title{
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0.25rem;
     font-weight: 900;
 }
 
 .plan_price{
-    font-size: 16px;
+    font-size: 14px;
     color: hsl(224, 23%, 55%);
     margin-top: 0rem;
 }
@@ -81,7 +82,7 @@ main{
     text-decoration: underline;
     border: none;
     background-color: hsl(225, 100%, 98%);
-    font-size: 16px;
+    font-size: 14px;
     color: hsl(245, 75%, 52%);
     font-weight: bold;
 }
@@ -95,7 +96,7 @@ main{
 .payment_button{
     border: none;
     border-radius: 15px ;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     background-color:hsl(245, 75%, 52%);
     color: white;
@@ -114,7 +115,7 @@ main{
     border: none;
     background-color: white;
     color: hsl(224, 23%, 55%);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 900;
     margin-bottom: 2.5rem;
     margin-top: 0rem;
